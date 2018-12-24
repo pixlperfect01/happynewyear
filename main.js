@@ -10,3 +10,5 @@ if(Math.random()<.25)
 ctx.fillRect(i,ii,2,2);
 }
 }
+window.requestAnimationFrame(draw);
+}
