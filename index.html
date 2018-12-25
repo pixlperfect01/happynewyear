@@ -5,6 +5,7 @@
 <script>
 
 //function activate(){
+  try{
 var c=document.getElementById('myCanvas');
 var ctx=c.getContext('2d');
 draw();
@@ -19,7 +20,10 @@ ctx.fillRect(i,ii,2,2);
 }
 }
 window.requestAnimationFrame(draw);
-}
+}}
+  catch{
+    document.body.innerHTML+="hu";
+  }
 //}
 </script>
 <body onload="">
