@@ -4,7 +4,7 @@
 </head>
 <script>
 
-//function activate(){
+function activate(){
 var c=document.getElementById('myCanvas');
 var ctx=c.getContext('2d');
 draw();
@@ -20,9 +20,9 @@ ctx.fillRect(i,ii,2,2);
 }
 window.requestAnimationFrame(draw);
 }
-//}
+}
 </script>
-<body onload="draw()">
+<body onload="">
 <canvas id="myCanvas"></canvas>
 <p>Sorry I couldn't do much design <code>Rome has shitty wifi</code></p><br>
 <button onclick="activate();">go</button>
